@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .purple {
+    color: #7342d6;
+  }
+
+
 /* NAV BAR */
 .nav__container {
     width: 100%;
@@ -33,7 +49,7 @@
 }
 
 .nav__logo-name:hover {
-    color: var(--primary-color);
+    color: var(#7342d6);
 }
 
 .nav__link {
@@ -51,8 +67,8 @@
 }
 
 .nav__link:hover {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+    border-color: var(#7342d6);
+    color: var(#7342d6);
 }
 
 .pl_1 {
@@ -60,7 +76,7 @@
 }
 
 .nav__link--primary {
-    background-color: var(--primary-color);
+    background-color: var(#7342d6);
     color: #fff;
     padding: 12px 32px;
     border-radius: 36px;
@@ -169,5 +185,5 @@ header {
 
 .header__input-input:focus {
     outline: transparent solid 2px;
-    border-color: var(--primary-color);
+    border-color: var(#7342d6);
 }
